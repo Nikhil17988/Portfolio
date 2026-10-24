@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Nikhil Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="biodata.html">Bio Data</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html" class="active">Contact</a>
+</nav>
+
+<header>
+    <h1>Contact Me</h1>
+    <p>Get in touch with me</p>
+</header>
+
+<div class="container">
+    <section class="card">
+        <h2>Contact Details</h2>
+        <p><strong>Name:</strong>Nikhil Kumar D</p>
+        <p><strong>Phone:</strong>
+            <a href="tel:9353739782">9353739782</a>
+        </p>
+        <p><strong>Email:</strong> Replace with your email address</p>
+    </section>
+
+    <section class="card">
+        <h2>Send a Message</h2>
+        <form action="mailto:YOUR-EMAIL@example.com"
+              method="post" enctype="text/plain">
+            <p>
+                <label for="name">Your Name</label><br>
+                <input id="name" name="Name" type="text"
+                       required style="width:100%;padding:10px;">
+            </p>
+            <p>
+                <label for="email">Your Email</label><br>
+                <input id="email" name="Email" type="email"
+                       required style="width:100%;padding:10px;">
+            </p>
+            <p>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="Message" rows="5"
+                          required style="width:100%;padding:10px;"></textarea>
+            </p>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Nikhil Kumar D | My Portfolio</p>
+</footer>
+
+</body>
+</html>
